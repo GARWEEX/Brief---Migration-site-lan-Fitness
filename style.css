@@ -622,6 +622,7 @@ scale: 1.15;
   gap: 10px 16xp;
 }
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -632,7 +633,7 @@ scale: 1.15;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   background-color: #060606;
   position: relative;
 

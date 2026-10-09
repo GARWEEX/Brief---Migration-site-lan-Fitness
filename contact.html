@@ -2,25 +2,48 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Élan Fitness, salle de sport à Casablanca : musculation, yoga, cardio et boxe fitness avec des coachs diplômés. Réservez votre cours d'essai gratuit.">
+  <title>Élan Fitness | Salle de sport à Casablanca</title>
+  <link rel="icon" href="img/logo.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="cont.css">
 </head>
+
 <body>
+
 
   <header class="en-tete">
     <div class="conteneur en-tete-contenu">
-      <a href="index.html" class="logo">Élan Fitness</a>
-      <nav aria-label="Navigation principale">
-        <ul class="menu">
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="propos.html">À propos</a></li>
-          <li><a href="programmes.html" target="_blank">Programmes</a></li>
-          <li><a href="contact.html" class="lien-actif">Contact</a></li>
-        </ul>
-      </nav>
+      <a target = "#accueil" href ="index.html" class="logo-link">
+      <img src="img/logo.svg">
+      
+      
+
+          <nav  class="navbar">
+  
+
+  <ul class="nav-menu">
+    <li><a target="_blank" href="index.html">accueil</a></li>
+    <li><a target="_blank" href="propos.html">propos</a></li>
+    <li><a target="_blank" href="programmes.html">programme</a></li>
+    <li><a target="_blank" href="contact.html">contact</a></li>
+  </ul>
+
+  <div class="hamburger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+</nav>
+     
     </div>
   </header>
+
 
   <main class="container"> 
     <h1>Contact Us</h1>
@@ -94,6 +117,23 @@
       </div>
     </div>
   </footer>
+
+    <script>
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-menu a").forEach(link => {
+  link.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  });
+});
+</script>
 
 </body>
 </html>
