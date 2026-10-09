@@ -108,8 +108,10 @@ button:focus-visible {
 }
 
 .bouton-principal:hover {
-  background-color: #000000;
-  color: #FFFFFF
+  box-shadow: 0 0 20px rgba(8, 26, 58, 0.8);
+  transform: translateY(-2px);
+  background-color: #171616;
+  color: #ffffff;
 }
 
 .bouton-secondaire {
@@ -119,8 +121,10 @@ button:focus-visible {
 }
 
 .bouton-secondaire:hover {
-  background-color: #000000;
-  color: #FFFFFF
+  box-shadow: 0 0 20px rgba(8, 26, 58, 0.8);
+  transform: translateY(-2px);
+  background-color: #171616;
+  color: #ffffff;
 }
 
 .cartes {
