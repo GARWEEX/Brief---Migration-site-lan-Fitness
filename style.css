@@ -270,6 +270,11 @@ button:focus-visible {
   border: 1px solid #E5E7EB;
   box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
 }
+.hero-image {
+  scale: 1.02;
+  box-shadow: 0 0 20px rgba(12, 58, 152, 0.8);
+  transform: translateY(-2px);
+}
 
 .chiffres {
   display: flex;
@@ -379,6 +384,12 @@ box-shadow: 0 0 20px rgba(13, 58, 136, 0.8);
   object-fit: cover;
   border-radius: 16px;
   box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
+}
+.apropos-image:hover {
+  scale: 1.02;
+  box-shadow: 0 0 20px rgba(12, 58, 152, 0.8);
+  transform: translateY(-2px);
+
 }
 
 .carte-programme {
