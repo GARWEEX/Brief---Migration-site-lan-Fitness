@@ -1,3 +1,5 @@
+*Trello link : https://trello.com/invite/b/6ac906f271606dc9ee962e70/ATTI3f1a3f18e96ef7e05c15a202a1c6879e51D0F1F0/brief
+
 # Modifications réalisées
 
 ## 1. Structure et Navigation
